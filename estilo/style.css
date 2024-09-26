@@ -1,7 +1,10 @@
 * {
   margin: 0px;  
   padding: 0px;
+
 }
+
+
 
 header > p {
     padding-bottom: 50px;
@@ -10,6 +13,7 @@ header > p {
 html, body {
     min-height: 100vh; 
     background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -20,6 +24,8 @@ header {
 
 header > h1 {
     font-variant: normal; 
+    font-family: cursive;
+    font-size: 10vw;
 }
 
 a {
@@ -45,18 +51,25 @@ section.normal {
 }
 
 section.imagem{
-    background-color: rgba(0, 0, 0, 0.582);
+    background-color: rgba(0, 0, 0, 0.603);
     color: white;
 }
 
 section{
+    font-size: 3.5vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>;
+    
 }
 
 section.imagem {
-    width: 400px;
+    padding: 5px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.61);
 }
+
