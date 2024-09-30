@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+
+        }
+        td,th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: grey;
+            color: white;
+        }
+
+        td.rum{
+            text-align: right;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+        
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>unidades federativas</caption>
+        <thead>
+         <th  scope="col">estado</th>
+         <th  scope="col" style="width: 100px;">população</th>
+        </thead>
+        <body>
+             <td>são paulo</td>
+             <td class="rum">45 919 049</td>
+             <tr>
+                <td> rio de janeiro</td>
+                <td class="rum">17 254 879</td>
+             </tr>
+             <tr>
+                <td>parana</td>
+                <td class="rum"> 11 278 578</td>
+             </tr>
+             <tr>
+                <td>rio grande do sul</td>
+                 <td class="rum">12 989 389</td>
+             </tr>
+             <tr> 
+                <td>florianopolis</td>
+                <td class="rum">19 849 389</td>
+             </tr>
+             <tr><td>estados unidos</td>
+                <td class="rum">73 788 288</td>
+            
+            </tr>
+            <tr> 
+                <td> los angeles</td>
+                <td class="rum"> 89 198 898</td>
+            </tr>
+            <tr>
+                <td> holliwoos</td>
+                <td class="rum"> 99 290 280</td>
+            </tr>
+            <tr>
+                <td>nova york</td>
+                <td class="rum"> 89 288 728</td>
+            </tr>
+            <tr>
+                <td>frança</td>
+                <td class="rum"> 78 898 289</td>
+            </tr>
+        </body>
+        <tfoot>
+            <tr>
+                <th scope="row">total de habitantes</th>
+                <td class="rum"><strong>898 829 879</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
