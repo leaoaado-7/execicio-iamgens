@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif
+            ;
+        }
+        table{
+            border-collapse: collapse;
+
+        }
+
+        th, td {
+            border: 1px solid darkgrey;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+         filmes favoritos
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Grupos</th>
+            <th scope="col">Nomes</th>
+             <th colspan="3" scope="colgroup">filmes</th>
+
+          </tr>
+        </thead>
+        <tbody>
+            <th rowspan="3" scope="rowgroup">mulheres</th>
+            <td>ana maria santos</td>
+            <td>Alien</td>
+            <td> rambo</td>
+            <td> vingadores </td>
+            <tr>
+                <td>beatris sousa</td>
+                <td>hulk</td>
+                <td>inception</td>
+                <td>batman</td>
+            </tr>
+            <tr>
+                <td>claudia melo</td>
+                <td>oblivion</td>
+                <td>matrix</td>
+                <td>big hero</td>
+            </tr>         td=dad0 th=celula
+            <tr>         scope= linha row =coluna  scougtup = todos os conjuntos da linha rowgrup= todos os conjuntos da coluna 
+                <th rowspan="3" scope="rowgroup">homens</th>
+                <td>bruno medonça</td>
+                <td>intocaveis</td>
+                <td>Amenesia</td>
+                <td>Gladiador</td>
+
+            </tr>
+            <tr>
+                <td>daniel lourenço</td>
+                <td> wall e</td>
+                <td> olboy</td>
+                <td>dangal</td>
+            </tr>
+            <tr>
+                <td>fabiano mota</td>
+                <td> star wars v</td>
+                <td> taxi drive</td>
+                 <td> toy story</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
